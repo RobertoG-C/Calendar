@@ -1,0 +1,32 @@
+.root {
+	-fx-font-family: "Courier New";
+	-fx-font-size: 11;
+	-fx-background-color: white;
+}
+
+
+.button:hover { 
+	-fx-effect: dropshadow(three-pass-box,black, 10, 0, 0, 0);
+}
+
+#mesLabel{
+	-fx-font-size: 13pt;
+	-fx-font-weight: bold;
+}
+
+#yearLabel{
+	-fx-font-family: Arial;
+	-fx-font-size: 22pt;
+	-fx-font-weight: bold;
+	-fx-text-fill:#FFFFFF;
+	-fx-font-style:normal !important;
+	-fx-effect: dropshadow(three-pass-box,black, 10, 0, 0, 0);
+}
+
+#lunes,#martes,#miercoles,#jueves,#viernes,#sabado,#domingo{
+	-fx-font-weight: bold;
+}
+
+#domingo,#label7,#label14,#label21,#label28,#label35,#label42{
+	-fx-text-fill: #FF0000;
+}
