@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<fx:root fx:id="view" hgap="5.0" prefHeight="100.0" prefWidth="200.0" type="GridPane" vgap="5.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="10.0" prefHeight="20.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <columnConstraints>
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" minWidth="10.0" prefWidth="30.0" />
+   </columnConstraints>
+   <children>
+      <Label fx:id="mesLabel" text="Label" GridPane.columnSpan="7" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" />
+      <Label fx:id="lunes" text="L" GridPane.rowIndex="1" />
+      <Label fx:id="martes" text="M" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+      <Label fx:id="miercoles" text="X" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+      <Label fx:id="jueves" text="J" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+      <Label fx:id="viernes" text="F" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+      <Label fx:id="sabado" text="S" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+      <Label fx:id="domingo" text="D" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+      <Label fx:id="label1" text="Label" GridPane.rowIndex="2" />
+      <Label fx:id="label2" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+      <Label fx:id="label3" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <Label fx:id="label4" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+      <Label fx:id="label5" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+      <Label fx:id="label6" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+      <Label fx:id="label7" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+      <Label fx:id="label8" text="Label" GridPane.rowIndex="3" />
+      <Label fx:id="label9" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+      <Label fx:id="label10" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+      <Label fx:id="label11" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+      <Label fx:id="label12" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+      <Label fx:id="label13" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+      <Label fx:id="label14" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+      <Label fx:id="label15" text="Label" GridPane.rowIndex="4" />
+      <Label fx:id="label16" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+      <Label fx:id="label17" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+      <Label fx:id="label18" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+      <Label fx:id="label19" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+      <Label fx:id="label20" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+      <Label fx:id="label21" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+      <Label fx:id="label22" text="Label" GridPane.rowIndex="5" />
+      <Label fx:id="label23" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+      <Label fx:id="label24" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+      <Label fx:id="label25" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+      <Label fx:id="label26" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+      <Label fx:id="label27" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+      <Label fx:id="label28" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+      <Label fx:id="label29" text="Label" GridPane.rowIndex="6" />
+      <Label fx:id="label30" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+      <Label fx:id="label31" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+      <Label fx:id="label32" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+      <Label fx:id="label33" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+      <Label fx:id="label34" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+      <Label fx:id="label35" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+      <Label fx:id="label36" text="Label" GridPane.rowIndex="7" />
+      <Label fx:id="label37" text="Label" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+      <Label fx:id="label38" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+      <Label fx:id="label39" text="Label" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+      <Label fx:id="label40" text="Label" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+      <Label fx:id="label41" text="Label" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+      <Label fx:id="label42" text="Label" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+   </children>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+   <padding>
+      <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+   </padding>
+</fx:root>
